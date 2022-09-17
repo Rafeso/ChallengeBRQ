@@ -4,73 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Easy House</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body class="bg-black">
-    <div class="container-fluid vh-100 vw-100" id="wrapper">
-        <div class="col-12 bg-white navbar" id="nav-wrapper">
-            <div class="container-fluid d-flex">
-                <span class="navbar-brand mx-auto">Easy House</span>
-                <span class="m-2">37ºC</span>
-                <span class="m-1">19:52</span>
-            </div>
-        </div>
+    <div class="container-fluid" id="wrapper">
 
-        <section class="d-inline-flex justify-content-center container-fluid mt-5" id="first-section-wrapper">
-            <div class="p-3 col-3 mx-4 mt-5 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
-                <div>
-                    <i class="bi bi-fan text-dark fs-1 p-5"></i>
-                    <p class="fs-5 text-black text-center">Ar condicionado</p>
-                </div>
-            </div>
-            
-            <div class="p-3 col-3 mx-4 mt-5 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
-                <div>
-                    <i class="bi bi-lock-fill text-dark fs-1 p-3"></i>
-                    <p class="fs-5 text-dark text-center">Locked</p>
-                </div>
-            </div>
-            <div class="p-3 col-3 mx-4 mt-5 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
-                <div>
-                    <i class="bi bi-box-seam-fill text-dark fs-1 p-3"></i>
-                    <p class="fs-5 text-dark">Garagem</p>
-                </div>
-            </div>
-        </section>
+        <header>
 
-        <main class="justify-content-center d-flex mt-5">
-            <div class="p-3 col-3 mx-4 mt-5 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
-                <div>
-                    <i class="bi bi-box-seam-fill text-dark fs-1 p-3"></i>
-                    <p class="fs-5 text-dark">Garagem</p>
+            <div class="col-12 bg-white navbar" id="nav-wrapper">
+                <div class="container-fluid m-auto">
+                    <h2 class="navbar-brand mx-auto">Easy House</h2>
+                    <span class="mx-2">37ºC</span>
+                    <span class="mx-3">19:52</span>
                 </div>
             </div>
+
+        </header>
+
+        <main>
+
+            <section class="d-flex justify-content-center container-fluid mt-5" id="first-section-wrapper">
+                <div class="col-3 mx-4 mt-5 d-flex rounded">
+                    <div class="text-center rounded pt-3">
+                        <i class="bi bi-fan text-dark fs-1"></i>
+                        <p class="text-black text-center">Ar condicionado</p>
+                    </div>
+                </div>
+                
+                <div class="col-3 mx-4 mt-5 d-flex rounded">
+                    <div class="text-center rounded pt-3">
+                        <i class="bi bi-lock-fill text-dark fs-1"></i>
+                        <p class="text-dark text-center">Locked</p>
+                    </div>
+                </div>
+                <div class="col-3 mx-4 mt-5 d-flex  rounded">
+                    <div class="text-center rounded pt-3">
+                        <i class="bi bi-box-seam-fill text-dark fs-1"></i>
+                        <p class="text-dark text-center">Garagem</p>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="justify-content-center container-fluid d-flex mt-5" id="middle-section-wrapper">
+                <div class="col-3 mx-4 mt-5 d-flex rounded ">
+                    <div class="text-center rounded pt-3">
+                        <i class="bi bi-box-seam-fill text-dark fs-1"></i>
+                        <p class="text-dark text-center">Garagem</p>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="d-flex justify-content-center container-fluid mt-5" id="second-section-wrapper">
+
+                <div class="col-3 mx-4 mt-5 d-flex rounded primeira-div">
+                    <div class="text-center mt-1 rounded pt-3">
+                        <i class="bi bi-fan text-dark fs-1"></i>
+                        <p>Ar condicionado</p>
+                    </div>
+                </div>
+                
+                <div class="col-3 mx-4 mt-5 d-flex rounded">
+                    <div class="text-center rounded pt-3">
+                        <i class="bi bi-lock-fill text-dark fs-1"></i>
+                        <p class="text-dark text-center">Locked</p>
+                    </div>
+                </div>
+
+                <div class="col-3 mx-4 mt-5 d-flex rounded">
+                    <div class="text-center rounded pt-3">
+                        <i class="bi bi-box-seam-fill text-dark fs-1"></i>
+                        <p class="flex-grow-1 text-dark text-center">Garagem</p>
+                    </div>
+                </div>
+            </section>
+
         </main>
-
-        <section class="d-inline-flex justify-content-center container-fluid mt-5" id="second-section-wrapper">
-            <div class="p-3 col-3 mx-4 mt-5 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
-                <div>
-                    <i class="bi bi-fan text-dark fs-1 p-5"></i>
-                    <p class="fs-5 text-black text-center">Ar condicionado</p>
-                </div>
-            </div>
-            
-            <div class="p-3 col-3 mx-4 mt-5 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
-                <div>
-                    <i class="bi bi-lock-fill text-dark fs-1 p-3"></i>
-                    <p class="fs-5 text-dark text-center">Locked</p>
-                </div>
-            </div>
-            <div class="p-3 col-3 mx-4 mt-5 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
-                <div>
-                    <i class="bi bi-box-seam-fill text-dark fs-1 p-3"></i>
-                    <p class="fs-5 text-dark">Garagem</p>
-                </div>
-            </div>
-        </section>
     </div>
 </body>
 </html>
