@@ -39,6 +39,10 @@ section div:hover {
     box-shadow: 0 0 10px #ed145b
 }
 
+.botao-selecionado {
+    box-shadow: 0 0 20px #ed145b
+}
+
 section p {
     font-weight: 500;
     letter-spacing: 0.7px;
