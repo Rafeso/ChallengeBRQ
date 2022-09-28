@@ -15,7 +15,7 @@ mesma tela. Para mais informações acesse a documentação do projeto <a href="
 
 # Preview
 
-![preview](/.github/view.png)
+![preview](/.github/View.png)
 #### <a href="https://challengebrq.vercel.app/">Clique aqui para acessar</a>
 
 <br>
