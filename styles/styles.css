@@ -7,6 +7,28 @@
     background: linear-gradient(45deg, #000000 16.2%, #4E575D 100.85%);
 }
 
+
+
+footer span {
+    text-align: right;
+    justify-content: right;
+}
+
+footer a {
+    float: left;
+    text-decoration: none;
+    color: #b32c59;
+    font-style: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: #ed145b;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px red, 0 0 2px #ed145b;
+}
+
+
 header h2 {
     font-size: 25px;
     font-weight: 900;
@@ -29,9 +51,26 @@ header {
     margin-top: 130px;
 }
 
-section div  {
+section div {
     width: 100%;
     background: black
+    
+}
+
+main section {
+    animation: frombottom .9s .2s backwards;
+}
+
+main section:nth-child(1){
+    animation-delay: .2s;
+}
+
+main section:nth-child(2){
+    animation-delay: .4s;
+}
+
+main section:nth-child(3){
+    animation-delay: .6s;
 }
 
 section div:hover {
@@ -53,6 +92,20 @@ footer {
     text-align: right;
 }
 
+
+@keyframes frombottom {
+    
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+        filter: blur(2px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 /* Media Query */
 @media (max-width: 500px) {
