@@ -74,12 +74,11 @@ main section:nth-child(3){
 }
 
 section div:hover {
-    background: linear-gradient(320deg, #111213 0%, #000000 50%, #ED145B 100%);
-    box-shadow: 0 0 10px #ed145b
+    box-shadow: 0 0 15px #ed145b
 }
 
 .botao-selecionado {
-    box-shadow: 0 0 20px #ed145b
+    box-shadow: 0 0 15px #ed145b
 }
 
 section p {
